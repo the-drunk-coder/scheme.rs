@@ -3,6 +3,8 @@
 subset of R5RS with some extensions from R7RS. No dependencies to any other
 Rust packages.
 
+This fork includes a simple browser REPL. See it running here: https://parkellipsen.de/scheme
+
 ** Motivation
 I was studying about compilers and interpreters. On the other hand I was
 trying to learn Rust. So I combined those two and this project has emerged.
