@@ -1,6 +1,17 @@
 [package]
-name = "scheme-rs"
+name = "scheme-rs-web"
 version = "0.1.0"
-authors = ["İsa Mert Gürbüz"]
+authors = ["İsa Mert Gürbüz", "Niklas Reppel"]
+
+[lib]
+crate-type = ["cdylib", "rlib"]
 
 [dependencies]
+wasm-bindgen = "0.2"
+wee_alloc = { version = "0.4.2", optional = true }
+
+[dependencies.web-sys]
+version = "0.3"
+features = [
+  "console",
+]
